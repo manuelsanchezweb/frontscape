@@ -1,7 +1,7 @@
 {
-  "name": "tailwind-documentation",
+  "name": "frontscape",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.4.2",
-    "astro": "2.7.0",
+    "@astrojs/vercel": "^3.7.0",
+    "astro": "^2.8.0",
     "sharp": "^0.32.1"
   }
 }
