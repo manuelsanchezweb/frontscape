@@ -4,7 +4,7 @@ import vercel from "@astrojs/vercel/static"
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.my-site.dev',
+  site: 'https://frontscape.vercel.app',
   compressHTML: true,
   output: 'static',
   adapter: vercel(),
